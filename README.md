@@ -1,4 +1,4 @@
-# 🧠 Neural Algorithmic Reasoning for Maze Solving: A Comparison with Classical Graph Search Algorithms
+# Neural Algorithmic Reasoning for Maze Solving: A Comparison with Classical Graph Search Algorithms
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch 2.6](https://img.shields.io/badge/PyTorch-2.6-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -9,7 +9,7 @@ An empirical research project evaluating **Neural Algorithmic Reasoning (NAR)** 
 
 ---
 
-## 📌 Abstract & Research Question
+## Abstract & Research Question
 
 > **Research Question:** *To what extent can Neural Algorithmic Reasoning match the accuracy, computational efficiency, and generalization capabilities of classical graph algorithms when solving graph-based problems?*
 
@@ -17,7 +17,7 @@ Classical graph search algorithms (BFS, Dijkstra, A*) guarantee 100% exact short
 
 ---
 
-## 🚀 Key Methodological Contributions
+## Key Methodological Contributions
 
 1. **Zero Test-Data Leakage**: Classification thresholds ($\tau^*$) are selected strictly on the validation dataset to maximize validation F1-score (`find_optimal_threshold`), and then applied as fixed thresholds across test, unseen, and scale generalization datasets.
 2. **Imbalanced Class Evaluation**: Evaluates Precision-Recall Curves (**PR-AUC / Average Precision**), Precision, Recall, F1-Score, ROC-AUC, and Confusion Matrices to account for the ~75% negative class imbalance.
@@ -27,7 +27,7 @@ Classical graph search algorithms (BFS, Dijkstra, A*) guarantee 100% exact short
 
 ---
 
-## 🏗️ Model Architectures
+## Model Architectures
 
 ```mermaid
 graph TD
@@ -52,7 +52,7 @@ graph TD
 
 ---
 
-## 📊 Benchmark Results
+## Benchmark Results
 
 Evaluating performance on 21×21 grid graphs under validation-tuned fixed thresholds ($\tau^*_{\text{ResGCN}}=0.520$, $\tau^*_{\text{GateMPNN}}=0.650$):
 
@@ -66,7 +66,7 @@ Evaluating performance on 21×21 grid graphs under validation-tuned fixed thresh
 
 ---
 
-## 📈 Visualizations & Figures
+## Visualizations & Figures
 
 ### Classification Performance (ROC & Precision-Recall Curves)
 ![ROC and PR Combined Curves](figures/roc_pr_combined.png)
@@ -84,7 +84,7 @@ Evaluating performance on 21×21 grid graphs under validation-tuned fixed thresh
 
 ---
 
-## ⚙️ Quick Start & Usage
+## Quick Start & Usage
 
 ### 1. Installation
 ```bash
@@ -105,7 +105,7 @@ jupyter notebook neural_algorithmic_reasoning_maze.ipynb
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -126,7 +126,7 @@ jupyter notebook neural_algorithmic_reasoning_maze.ipynb
 
 ---
 
-## 📜 References
+## References
 
 - **Veličković, P., et al. (2021)**. The CLRS Algorithmic Reasoning Benchmark. *ICML / arXiv:2105.15197*.
 - **Battaglia, P. W., et al. (2018)**. Relational inductive biases, deep learning, and graph networks. *arXiv:1806.01261*.
@@ -137,4 +137,4 @@ jupyter notebook neural_algorithmic_reasoning_maze.ipynb
 ---
 
 ## 📄 License
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
