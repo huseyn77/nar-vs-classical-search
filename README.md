@@ -105,27 +105,6 @@ jupyter notebook neural_algorithmic_reasoning_maze.ipynb
 
 ---
 
-## Repository Structure
-
-```
-.
-├── main.py                                  # Main experimental entry point
-├── dataset_generator.py                     # Randomized maze generation & OpenCV border detection
-├── neural_algorithmic_reasoning_maze.ipynb  # Interactive research notebook
-├── nar_maze_solver_presentation.pdf         # 11-Slide PDF presentation deck
-├── nar_maze_solver_presentation.pptx        # 11-Slide PowerPoint deck
-├── src/
-│   ├── dataset.py                           # PyTorch Geometric Dataset handler
-│   ├── graph_builder.py                     # 4-connected NetworkX grid graph builder
-│   ├── models.py                            # ResGCN & GateMPNN GNN definitions
-│   ├── trainer.py                           # AdamW & Focal Loss training loop
-│   ├── evaluator.py                         # Validation threshold tuner & metric suite
-│   └── visualizer.py                        # Matplotlib plotting suite
-└── figures/                                 # Exported publication PNG figures & CSV tables
-```
-
----
-
 ## References
 
 - **Veličković, P., et al. (2021)**. The CLRS Algorithmic Reasoning Benchmark. *ICML / arXiv:2105.15197*.
