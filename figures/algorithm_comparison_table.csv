@@ -1,0 +1,6 @@
+Method,Accuracy (%),Precision (%),Recall (%),F1-Score,ROC-AUC (%),Average Precision (%),Inference Time (ms),Memory Usage (MB),Computational Efficiency (nodes/ms)
+BFS,100.0,100.0,100.0,1.0,100.0,100.0,4.65,0.13,871.3
+Dijkstra,100.0,100.0,100.0,1.0,100.0,100.0,17.19,0.62,235.6
+A*,100.0,100.0,100.0,1.0,100.0,100.0,18.2,0.43,222.6
+GCN (AdamW),98.63,95.51,98.85,0.9715,99.8,98.94,26.81,5.67,151.1
+MPNN (AdamW),98.7,97.89,96.57,0.9723,99.87,99.43,12.61,5.67,321.3

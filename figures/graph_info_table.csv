@@ -1,0 +1,16 @@
+Maze_ID,Image_Path,Grid_Shape,Num_Nodes,Num_Edges,Start_Coords,Goal_Coords,Path_Length,BFS_Time_ms,Dijkstra_Time_ms,AStar_Time_ms
+0,C:\Users\a4969\nar_maze_solver\data\test\0000065.png,91x91,4051,8100,"(89, 90)","(1, 0)",791,3.553,11.033,12.043
+1,C:\Users\a4969\nar_maze_solver\data\test\0000066.png,91x91,4051,8100,"(89, 90)","(1, 0)",695,6.892,25.564,22.746
+2,C:\Users\a4969\nar_maze_solver\data\test\0000067.png,91x91,4051,8100,"(89, 90)","(1, 0)",1735,6.153,20.058,22.868
+3,C:\Users\a4969\nar_maze_solver\data\test\0000068.png,91x91,4051,8100,"(89, 90)","(1, 0)",923,4.527,18.159,20.272
+4,C:\Users\a4969\nar_maze_solver\data\test\0000069.png,91x91,4051,8100,"(89, 90)","(1, 0)",1355,5.384,18.481,21.897
+5,C:\Users\a4969\nar_maze_solver\data\test\0000070.png,91x91,4051,8100,"(89, 90)","(1, 0)",527,2.376,9.562,8.611
+6,C:\Users\a4969\nar_maze_solver\data\test\0000071.png,91x91,4051,8100,"(89, 90)","(1, 0)",639,2.941,14.257,23.819
+7,C:\Users\a4969\nar_maze_solver\data\test\0000072.png,91x91,4051,8100,"(89, 90)","(1, 0)",907,3.918,13.646,13.923
+8,C:\Users\a4969\nar_maze_solver\data\test\0000073.png,91x91,4051,8100,"(89, 90)","(1, 0)",1115,4.14,14.494,14.51
+9,C:\Users\a4969\nar_maze_solver\data\test\0000074.png,91x91,4051,8100,"(89, 90)","(1, 0)",795,3.06,19.11,18.952
+10,C:\Users\a4969\nar_maze_solver\data\test\0000075.png,91x91,4051,8100,"(89, 90)","(1, 0)",1243,5.003,18.0,20.448
+11,C:\Users\a4969\nar_maze_solver\data\test\0000076.png,91x91,4051,8100,"(89, 90)","(1, 0)",907,4.016,15.627,17.955
+12,C:\Users\a4969\nar_maze_solver\data\test\0000077.png,91x91,4051,8100,"(89, 90)","(1, 0)",875,4.072,16.261,21.166
+13,C:\Users\a4969\nar_maze_solver\data\test\0000078.png,91x91,4051,8100,"(89, 90)","(1, 0)",1143,9.634,28.859,19.834
+14,C:\Users\a4969\nar_maze_solver\data\test\0000079.png,91x91,4051,8100,"(89, 90)","(1, 0)",735,4.072,14.78,13.933
